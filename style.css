@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0;
+    
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    width: 100%;
+}
+
+.top {
+    background: #181818;
+    height: 60px;
+}
+
+.top h1 {
+    color: #f9f9f9;
+    font-size: 16px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+}
+
+.top-1 h1 {
+    line-height: 47px;
+    display: flex;
+    justify-content: center;
+    color: black;
+    padding: 6px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.banner {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(./imagens/Jordan\ fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 378px;
+}
+
+.top-3 {
+    position: relative;
+    color: #f9f9f9;
+    padding-top: 129px;
+    padding-left: 100px;
+}
+
+.top-3  h1 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
+    padding-bottom: 19px;
+}
+
+.top-3 p {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 35px;
+    height: 70px
+}
+
+.introduction h1 {
+    display: flex;
+    justify-content: center;
+    line-height: 63px;
+    padding-top: 58px;
+}
+
+.introduction p {
+    display: flex;
+    justify-content: center;
+    line-height: 35px;
+}
+
+.shoes {
+    padding: 59px 100px 160px 100px;
+    gap: 39px 13px;
+    
+}
+.shoes img {
+    background: #EBE9EA;
+    width: 300px;
+    height: 302px;
+}
+
+.container {
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 39px 13px;
+}
+
+footer {
+    background: #181818;
+    color: #f9f9f9;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+
+}
+
+footer p {
+    font-size: 18px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    width: 260px;
+    line-height: 35px;
+}
+
+@media (max-width: 600px) {
+    .top-3 {
+        padding-left: 20px;
+    }
+
+    .banner {
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(./imagens/jordan\ fundo\ media\ querie.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .introduction {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .introduction p {
+        padding: 0px 20px 0px 20px;
+        text-align: center;
+    }
+
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+}
